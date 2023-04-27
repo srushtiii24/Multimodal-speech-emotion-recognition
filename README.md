@@ -6,9 +6,7 @@ Identifying emotion from speech is a non-trivial task pertaining to the ambiguou
 The hand-crafted feature vectors obtained are used to train two types of models:
 
 1. ML-based: Logistic Regression, SVMs, Random Forest, eXtreme Gradient Boosting and Multinomial Naive-Bayes.
-2. DL-based: Multi-Layer Perceptron, LSTM Classifier
-
-This project was carried as a course project for the course CS 698 - Computational Audio taught by [Prof. Richard Mann](https://cs.uwaterloo.ca/~mannr/) at the University of Waterloo. For a more detailed explanation, please check the [report](https://arxiv.org/abs/1904.06022).
+2. DL-based: Multi-Layer Perceptron
 
 ## Datasets
 The [IEMOCAP](https://link.springer.com/content/pdf/10.1007%2Fs10579-008-9076-6.pdf) dataset was used for all the experiments in this work. Please refer to the [report](https://arxiv.org/abs/1904.06022) for a detailed explanation of pre-processing steps applied to the dataset.
